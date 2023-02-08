@@ -1,4 +1,4 @@
-wait(3)
+game.Loaded:Wait()
 
 xpcall(function()
     OldNameCall = hookmetamethod(game.Players.LocalPlayer, "__namecall", function(Self, ...)
